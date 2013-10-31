@@ -15,7 +15,7 @@ public class SimpleSearch {
         List<String> lines = FileUtils.readLines(new File(new File("data"), "Lebensansichten_des_Katers_Murr.txt"));
         System.out.println("Datei gelesen.");
 
-        String anfrage = "Kreisler";
+        String anfrage = "wie";
         for(String line: lines ) {
             if(line.contains(anfrage))
                 System.out.println(line);
